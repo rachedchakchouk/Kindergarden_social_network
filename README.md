@@ -1,31 +1,51 @@
-# Kindergarten Social Network — project vision
+# Kindergarten Social Network — vision du projet
 
-Concept and specification repository for the PIDEV project (ESPRIT, 2021): a social network that
-brings **parents** and **kindergartens** together around the child's development.
+**Français** · [English](README.en.md)
 
-➡️ Source code (Spring Boot backend): [SocialNetwork-ParentsKindergartens](https://github.com/rachedchakchouk/SocialNetwork-ParentsKindergartens)
+Dépôt de cadrage du projet PIDEV (ESPRIT, 2021) : un réseau social qui réunit les **parents** et les
+**jardins d'enfants** autour du développement de l'enfant.
 
-## Why
+> Code source (back-end Spring Boot) :
+> [SocialNetwork-ParentsKindergartens](https://github.com/rachedchakchouk/SocialNetwork-ParentsKindergartens)
 
-Research shows that kindergarten improves children's health and wellbeing, helps them develop strong
-social skills and encourages a love of learning. Children who attend a kindergarten program are more
-independent and confident, and make a smoother transition to primary school.
+## Contenu du dépôt
 
-Parents also play a key role in their child's development and need to follow their child's activities
-even while the child is at the kindergarten. We believe kindergartens and parents should **work together
-and share responsibilities** for the good of the children — this platform is built for that.
+Ce dépôt ne contient pas de code : seulement ce document de vision (`README.md`) et sa version anglaise
+(`README.en.md`).
 
-## Planned features
+## Pourquoi
 
-- Profiles for parents, kindergarten owners, educators, doctors, staff and bus drivers
-- Child follow-up: courses, activities, notes and evaluations
-- Meetings and appointments between parents and staff
-- Events, clubs and notifications
-- School bus routes
-- Forum, posts, comments and chat
-- Claims and satisfaction surveys
+Les études montrent que le jardin d'enfants améliore la santé et le bien-être des enfants, les aide à
+développer de solides compétences sociales et leur donne le goût d'apprendre. Les enfants qui suivent un
+programme de jardin d'enfants sont plus autonomes et plus confiants, et passent plus facilement à l'école
+primaire.
 
-## Author
+Les parents jouent eux aussi un rôle essentiel dans le développement de leur enfant et doivent pouvoir suivre
+ses activités, même lorsqu'il est au jardin d'enfants. Nous pensons que jardins d'enfants et parents doivent
+**travailler ensemble et partager les responsabilités** pour le bien des enfants : cette plateforme est conçue
+pour cela.
 
-**Rached Chakchouk** — Full Stack Software Engineer (Java / Spring Boot / Angular)
+## Fonctionnalités prévues
+
+- Profils des parents, des propriétaires de jardins d'enfants, des éducateurs, des médecins, du personnel et des
+  chauffeurs de bus
+- Suivi de l'enfant : cours, activités, notes et évaluations
+- Réunions et rendez-vous entre les parents et le personnel
+- Événements, clubs et notifications
+- Trajets du bus scolaire
+- Forum, publications, commentaires et messagerie
+- Réclamations et enquêtes de satisfaction
+
+## État de réalisation
+
+Le back-end [SocialNetwork-ParentsKindergartens](https://github.com/rachedchakchouk/SocialNetwork-ParentsKindergartens)
+définit les entités JPA de ces fonctionnalités et expose à ce jour une API REST pour deux d'entre elles : les
+utilisateurs et les réunions.
+
+## Auteur
+
+Projet d'équipe PIDEV réalisé à ESPRIT en 2021. Le texte de vision d'origine a été versé par Arij Mansour
+(premier commit, février 2021) ; Rached Chakchouk l'a restructuré en 2026.
+
+**Rached Chakchouk** — ingénieur logiciel Full Stack (Java / Spring Boot / Angular) ·
 [LinkedIn](https://www.linkedin.com/in/rached-chakchouk) · [Portfolio](https://rached-chakchouk.netlify.app)
